@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const repoName = "vibecoding_tutorial";
+const repoName = process.env.NEXT_PUBLIC_REPO_NAME || "VibeCoding_Tutorial";
 
 const nextConfig: NextConfig = {
   output: "export",
