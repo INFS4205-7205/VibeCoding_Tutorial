@@ -17,8 +17,10 @@ import { cn } from "@/lib/utils"
 import remarkUnwrapImages from "remark-unwrap-images"
 
 // Helper to make hrefs work with GitHub Pages / subdirectory deployment
+const repoName = process.env.NEXT_PUBLIC_REPO_NAME || "VibeCoding_Tutorial";
+const basePath = `/${repoName}`;
+
 const processHref = (href?: string) => {
-    const basePath = "/vibecoding_tutorial"
     return href?.startsWith("/") && !href.startsWith(basePath)
         ? `${basePath}${href}`
         : href
@@ -333,13 +335,13 @@ export default async function LessonPage({ params }: LessonPageProps) {
                             if (!inline && language === "video") {
                                 try {
                                     const content = JSON.parse(contentStr)
+                                    const videoSrc = processHref(content.src)
                                     return (
                                         <div className="my-10 not-prose">
                                             <video
-                                                src={content.src}
+                                                src={videoSrc}
                                                 controls={content.controls !== false}
                                                 className="w-full rounded-xl shadow-lg border border-border/50 bg-black"
-                                                {...content}
                                             />
                                             {content.caption && (
                                                 <p className="text-center text-sm text-muted-foreground mt-3 italic">
