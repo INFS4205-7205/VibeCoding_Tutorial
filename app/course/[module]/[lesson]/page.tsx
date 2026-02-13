@@ -153,9 +153,7 @@ export default async function LessonPage({ params }: LessonPageProps) {
     const moduleLessonIndex = moduleLessons.findIndex(l => l.id === lessonId) + 1
     const totalModuleLessons = moduleLessons.length
 
-    // Estimate read time (very rough: 200 wpm)
-    const wordCount = lesson.content.split(/\s+/).length
-    const readTime = Math.ceil(wordCount / 200)
+
 
     return (
         <div className="mx-auto max-w-4xl space-y-12 pb-20 pt-8 px-6">
@@ -181,10 +179,7 @@ export default async function LessonPage({ params }: LessonPageProps) {
                         <span className="h-4 w-4 bg-primary/10 rounded-full flex items-center justify-center text-[10px] font-bold text-primary">{moduleLessonIndex}</span>
                         <span className="font-medium text-foreground">Lesson {moduleLessonIndex} of {totalModuleLessons}</span>
                     </div>
-                    <span className="text-zinc-300 dark:text-zinc-700">•</span>
-                    <div className="flex items-center gap-1.5">
-                        <span>{readTime} min read</span>
-                    </div>
+
                 </div>
             </div>
 

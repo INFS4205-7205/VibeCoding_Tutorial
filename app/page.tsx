@@ -11,8 +11,12 @@ export default function Home() {
         <ModuleGrid />
       </main>
       <footer className="py-6 md:px-8 md:py-0">
-        <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-          <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
+        <div className="container flex flex-col items-center justify-center gap-2 md:h-24">
+          <p className="text-center text-sm leading-loose text-muted-foreground">
+            Team: <span className="font-bold text-foreground">Danny Wang</span><sup>*</sup>, Yadan Luo<sup>†</sup>, Zhuoxiao Chen, Yan Jiang, Xiangyu Sun, Xuwei Xu, Fengyi Zhang, Zhizhen Zhang.
+          </p>
+          <p className="text-center text-xs text-muted-foreground">
+            * Author, † Coordinator.
           </p>
         </div>
       </footer>

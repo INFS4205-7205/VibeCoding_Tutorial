@@ -31,7 +31,7 @@ export function Sidebar() {
         <div className="fixed inset-y-0 left-0 z-50 hidden w-72 flex-col border-r bg-background lg:flex">
             <div className="flex h-14 items-center border-b px-6">
                 <Link href="/" className="flex items-center font-bold text-lg text-primary">
-                    Agentic Coding
+                    INFS4205/7205 <br></br> Vibe Coding
                 </Link>
             </div>
             <div className="px-6 py-6 border-b">
@@ -74,9 +74,7 @@ export function Sidebar() {
                                                 <span className={cn("text-sm font-medium", isActive ? "text-primary" : "text-foreground")}>
                                                     {lesson.title}
                                                 </span>
-                                                <span className="text-xs text-muted-foreground">
-                                                    5 min read
-                                                </span>
+
                                             </div>
 
                                             <div className="flex h-5 w-5 items-center justify-center">

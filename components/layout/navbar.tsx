@@ -12,6 +12,9 @@ export function Navbar() {
     return (
         <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
             <div className="container mx-auto flex h-14 items-center pl-4 lg:pl-0"> {/* Adjusted padding */}
+                <div className="mr-4 flex items-center font-bold">
+                    INFS4205/7205
+                </div>
                 <div className="mr-4 hidden md:flex">
                     <Link href="/" className="mr-6 flex items-center space-x-2 font-bold text-primary lg:hidden">
                         Antigravity

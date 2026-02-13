@@ -37,7 +37,9 @@ export const courseData: Module[] = [
 - [Antigravity (Google)](https://antigravity.google/).
 - [Cursor](https://cursor.com/).
 - [OpenAI Codex](https://openai.com/codex/) - built as a standalone agent app, can access major IDEs like VS Code, Antigravity, and Cursor for editing files.
-- [VS Code + extensions](https://code.visualstudio.com/) — coding agents like  [GitHub Copilot](https://github.com/features/copilot), Codex, Gemini Code are available as within-app extensions.
+- [VS Code + extensions](https://code.visualstudio.com/) — coding agents like [GitHub Copilot](https://github.com/features/copilot), Codex, Gemini Code are available as within-app extensions.
+
+Note: The above tools all have free plans available for use.
 
 ### Command-line/terminal based:
 - [Claude Code](https://code.claude.com/docs/en/overview).
