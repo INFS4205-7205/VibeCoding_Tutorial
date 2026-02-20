@@ -38,7 +38,7 @@ const modules = courseData.map((module, index) => {
 
 export function ModuleGrid() {
     return (
-        <div className="container mx-auto py-24 sm:py-32">
+        <div className="container mx-auto pt-24 pb-8 sm:pt-32 sm:pb-12">
             <div className="mx-auto max-w-2xl text-center">
                 <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
                     Course Curriculum

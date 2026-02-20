@@ -16,7 +16,14 @@ export default function Home() {
             Team: <span className="font-bold text-foreground">Danny Wang</span><sup>*</sup>, Yadan Luo<sup>†</sup>, Zhuoxiao Chen, Yan Jiang, Xiangyu Sun, Xuwei Xu, Fengyi Zhang, Zhizhen Zhang.
           </p>
           <p className="text-xs text-muted-foreground">
-            * Author, † Coordinator.
+            * Project Credit, † Coordinator.
+          </p>
+          <p className="text-xs text-muted-foreground">
+            This content is created based on
+            publicly available sources. All original copyrights remain with their respective
+            owners.
+            <br />
+            &copy; 2026 INFS4205/7205. The University of Queensland.
           </p>
         </div>
       </footer>
