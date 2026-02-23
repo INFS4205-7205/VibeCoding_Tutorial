@@ -853,6 +853,12 @@ Here is a curated list of tools, documentation, and standards mentioned in this 
 *   [**Prompt Engineering Guide**](https://www.promptingguide.ai/) - Learn how to craft better prompts for your agent.
 *   [**Streamlit Documentation**](https://docs.streamlit.io/) - For building the data apps in Module 3.
 *   [**Next.js Documentation**](https://nextjs.org/docs) - For the web app frameworks used in the course.
+*   [**Steven Ge - Claude Code for Everyone**](https://gexijin.github.io/vibe/)
+*   [**SanK Shubham - A Guide to Claude Code 2.0 and getting better at using coding agents**](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
+*   [**Pedro Santanna - My Claude Code Setup**](https://psantanna.com/claude-code-my-workflow/)
+*   [**Aniket Panjwani - Using Claude Code with Stata - an economist's guide**](https://x.com/aniketapanjwani/status/2021663279307706372)
+*   [**Olivia Moore - Cursor + Claude Code: How to build an agentic workspace (for non-technical people)**](https://x.com/omooretweets/status/2014010732061638949)
+*   [**Vibe Coding Project Gallery**](https://vibecoding.gallery/en/projects/)
 `
       }
     ]
